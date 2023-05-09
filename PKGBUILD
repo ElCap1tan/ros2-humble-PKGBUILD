@@ -10,7 +10,7 @@
 # package, maintained by T. Borgert.
 
 pkgname=ros2-humble
-pkgver=2023.03.08
+pkgver=2023.05.02
 pkgrel=1
 pkgdesc="A set of software libraries and tools for building robot applications"
 url="https://docs.ros.org/en/humble/"
@@ -23,7 +23,7 @@ depends=(
     'gmock'
 )
 source=(
-    "ros2::git+https://github.com/ros2/ros2#tag=release-humble-20230308"
+    "ros2::git+https://github.com/ros2/ros2#tag=release-humble-20230502"
 )
 sha256sums=(
     'SKIP'
