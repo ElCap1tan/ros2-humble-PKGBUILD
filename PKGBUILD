@@ -61,6 +61,8 @@ build() {
 
     # Build
     colcon build --merge-install ${COLCON_EXTRA_ARGS}
+    echo Fixing paths...
+    find . -type f -exec sed -i "s_${srcdir}/install_/opt/ros/humble_g" {} +
 }
 
 package() {
